@@ -1,0 +1,44 @@
+$background: #f4f1e8;
+$border: #c9c6bf;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 4000px;
+  background-color: $background;
+  font-family: "Tangerine";
+}
+
+header {
+  padding: 30px;
+  text-align: center;
+  .header-title {
+    margin: 14px 0;
+    border-style: solid none;
+    border-width: 2px;
+    border-color: $border;
+    padding: 20px;
+    font-size: 50px;
+  }
+}
+
+.main-table {
+  display: grid;
+  background-color: aliceblue;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  width: 70%;
+  margin: auto;
+  .boximg {
+    border-width: 1px;
+    height: 200px;
+  }
+  .boxtext {
+    border-style: none solid none none;
+    border-color: $border;
+    padding: 15px 0 0 15px;
+  }
+}
