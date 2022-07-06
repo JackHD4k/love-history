@@ -18,27 +18,38 @@ header {
   .header-title {
     margin: 14px 0;
     border-style: solid none;
-    border-width: 2px;
-    border-color: $border;
+    border-width: 1.5px;
+    border-color: black;
     padding: 20px;
-    font-size: 50px;
+    font-size: 4rem;
   }
 }
 
 .main-table {
   display: grid;
-  background-color: aliceblue;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: minmax(100px, auto);
   width: 70%;
   margin: auto;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+  border-style: none solid none solid;
+  border-width: 1px;
+  border-color: black;
   .boximg {
     border-width: 1px;
-    height: 200px;
-  }
+    height: 300px;
+    width: 65%;
+    border-style: none none solid none;
+    border-width: 1px;
+    border-color: black;
+      .img-box {
+        margin-top: 10%;
+        width: 400px;
+      }
+    }
   .boxtext {
-    border-style: none solid none none;
-    border-color: $border;
-    padding: 15px 0 0 15px;
+    font-size: 2em;
   }
 }

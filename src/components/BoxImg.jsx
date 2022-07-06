@@ -1,8 +1,7 @@
-function BoxImg() {
+function BoxImg(props) {
   return (
     <div className="boximg">
-      <h1>Imagen</h1>
-      <img className="img-box" src="" alt="" />
+      <img className="img-box" src={props.img} alt="" />
     </div>
   );
 }

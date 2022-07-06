@@ -1,8 +1,8 @@
-function BoxText() {
+function BoxText(props) {
   return (
     <div className="boxtext">
-      <h1 className="box-title">Costa Verde</h1>
-      <p className="box-text">Un camino de 15km por toda la costa verde</p>
+      <h1 className="box-title">{props.title}</h1>
+      <p>{props.date}</p>
     </div>
   );
 }
