@@ -37,7 +37,7 @@ header {
 
 .a {
   grid-area: a;
-  font-size: 27px;
+  font-size: 3vw;
 }
 
 .b{
@@ -52,7 +52,7 @@ header {
 
 .d {
   grid-area: d;
-  font-size: 27px;
+  font-size: 3vw;
   border-style: none none none solid;
   border-width: 1px;
 }
@@ -79,9 +79,6 @@ header {
   .img-box {
     width: 150px;
   };
-  .a {
-    font-size: 15px;
-  }
 }
 /*
 header {
